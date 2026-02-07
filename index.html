@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Poppins:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- First Meet Section -->
+    <section class="first-meet">
+        <div class="content">
+
+            <h1>When We First Met</h1>
+
+            <div class="photo-box">
+                <img id="storyImage" src="images/IMG_1003.JPG" alt="Our memory">
+            </div>
+
+            <div id="storyText">
+                <p class="story">
+                    I still remember the moment we first met.
+                    I didn't know it then, but something about you stayed with me.
+                </p>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="nav-arrows">
+                <button id="prevBtn">⬅️</button>
+                <button id="nextBtn">➡️</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Second Session: Facebook Story -->
+    <section class="facebook-story hidden" id="facebookStory">
+        <div class="content">
+
+            <h1>When Facebook Became Our Place</h1>
+
+            <div class="photo-box">
+                <img id="fb-image" src="images/Screenshot_20260207_011814_Messenger.jpg" alt="Facebook memories">
+            </div>
+
+            <div id="fb-text">
+                <p class="story">
+                    It started with simple messages, but soon we were talking for hours without realizing how time passed.
+                </p>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="nav-arrows">
+                <button id="fb-prev">⬅️</button>
+                <button id="fb-next">➡️</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Proposal Question Section -->
+    <section class="proposal-question hidden" id="proposalQuestion">
+        <div class="content">
+
+            <h1>A Question For You...</h1>
+
+            <!-- Ring Animation -->
+            <div class="ring-container">
+                <div class="ring">
+                    <div class="diamond"></div>
+                </div>
+            </div>
+
+            <p class="story proposal-ask">
+                Will you be mine forever? ❤️
+            </p>
+
+            <!-- Yes/No Buttons -->
+            <div class="answer-buttons">
+                <button class="answer-btn yes-btn" id="yesBtn">Yes! 💕</button>
+                <button class="answer-btn no-btn" id="noBtn">No 💔</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Final Session: Proposal YES Response -->
+    <section class="proposal hidden" id="proposalSection">
+        <div class="content">
+
+            <h1>I love You Too Babyy</h1>
+
+            <!-- Heart -->
+            <div class="heart"></div>
+
+            <!-- Typewriter Text -->
+            <p class="story typewriter" id="proposalText"></p>
+
+            <!-- Music Button -->
+            <button class="music-btn" id="musicToggle">Music On</button>
+
+            <!-- Background Music -->
+            <audio id="bgMusic" loop>
+                <source src="music/romantic.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+    </section>
+
+    <!-- Sad Response Section -->
+    <section class="sad-response hidden" id="sadSection">
+        <div class="content">
+
+            <h1>Oh... 💔</h1>
+
+            <!-- Sad Emoji -->
+            <div class="sad-emoji">😢</div>
+
+            <p class="story">
+                I understand... but you'll always be special to me.
+            </p>
+
+            <!-- Sad Music -->
+            <audio id="sadMusic" autoplay loop>
+                <source src="music/sad.mp3" type="audio/mpeg">
+            </audio>
+
+        </div>
+    </section>
+
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
