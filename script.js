@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const firstSlides = [
         {
-            image: "images/IMG_1003.JPG",
+            image: "IMG_1003.JPG",
             text: "I still remember the moment we first met. I didn't know it then, but something about you stayed with me."
         },
         {
-            image: "images/IMG_0129.JPG",
+            image: "IMG_0129.JPG",
             text: "Somewhere between the laughs and little moments, you slowly became special to me."
         },
         {
-            image: "images/IMG_1370.JPG",
+            image: "IMG_1370.JPG",
             text: "And that's how I fell in love with you — not all at once, but piece by piece. ❤️"
         }
     ];
@@ -51,15 +51,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const fbSlides = [
         {
-            image: "images/Screenshot_20260207_011814_Messenger.jpg",
+            image: "Screenshot_20260207_011814_Messenger.jpg",
             text: "It started with simple messages, but soon we were talking for hours without realizing how time passed."
         },
         {
-            image: "images/IMG-20240526-WA0005.jpg",
+            image: "IMG-20240526-WA0005.jpg",                    
             text: "We shared photos, stories, and little details of our lives — slowly getting closer."
         },
         {
-            image: "images/Screenshot_20260207_013945_Messenger.jpg",
+            image: "Screenshot_20260207_013945_Messenger.jpg",
             text: "And then one day… you proposed me 💖"
         }
     ];
